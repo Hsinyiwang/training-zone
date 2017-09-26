@@ -1,0 +1,144 @@
+h1 {
+  color: white;
+  border: 2px dotted purple;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 10px 10px purple;
+}
+.home {
+  text-decoration: none;
+}
+
+h1:hover {
+  background-color: orange;
+}
+
+h1:active {
+  background-color: orangered;
+  box-shadow: 2px 2px purple;
+  margin: 28px 12px 12px 28px;
+}
+
+body {
+  width: 75%;
+  margin: auto;
+  font-family: sans-serif;
+  background-color: lightcoral;
+}
+
+.fullwidth {
+  width: 100%;
+  text-align: center;
+}
+
+nav {
+  background-color: lightblue;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 3px 3px purple;
+}
+
+.main {
+  margin: 10px 50px;
+  text-align: justify;
+  background-color: white;
+  padding: 20px;
+  border-radius: 2px;
+  box-shadow: 4px 4px purple;
+  display: inline-block;
+  height: 500px;
+  width: 400px;
+}
+
+.flexible {
+  width: 50%;
+  max-width: 800px;
+}
+
+.right {
+  padding: 20px;
+  width: 100px;
+  height: 500px;
+  background-color: white;
+  display: inline-block;
+  box-shadow: 4px 4px purple;
+  
+}
+
+.left {
+  padding: 20px;
+  width: 100px;
+  height: 500px;
+  background-color: white;
+  display: inline-block;
+  box-shadow: 4px 4px purple;
+  
+}
+
+.even {
+  width: 300px;
+}
+
+.col1 {
+  background-color: orange;
+  display: inline-block;
+  width: 150px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.col2 {
+  background-color: orange;
+  display: inline-block;
+  width: 150px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.sm {
+  width: 100px;
+}
+
+.col-flexible {
+  width: 40%;
+}
+
+.img {
+  width: 400px;
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 10px 10px lightcoral;
+}
+.img-sm {
+  width: 200px;
+}
+.img-md {
+  width: 300px;
+}
+
+.imgHolder {
+  text-align: center;
+}
+
+p:hover {
+  background-color: rgba(255, 127, 80, 0.2);
+  border-radius: 2px;
+}
+tr:hover {
+  background-color: rgba(255, 127, 80, 0.2);
+  border-radius: 2px;
+}
+li:hover {
+  background-color: rgba(255, 127, 80, 0.2);
+  border-radius: 2px;
+}
+h3:hover {
+  background-color: rgba(255, 127, 80, 0.2);
+  border-radius: 2px;
+}
+h4:hover {
+  background-color: rgba(255, 127, 80, 0.2);
+  border-radius: 2px;
+}
