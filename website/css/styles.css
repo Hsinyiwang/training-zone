@@ -35,7 +35,19 @@ nav {
   box-shadow: 3px 3px purple;
 }
 
+.right {
+  margin: 20px; 
+  padding: 20px;
+  height: 350px;
+  width: 100px;
+  background-color: white;
+  float: left;
+  box-shadow: 4px 4px purple;
+}
+
 .main {
+  display: inline-block;
+  align-items: center;
   margin: 10px 50px;
   text-align: justify;
   background-color: white;
